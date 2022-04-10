@@ -1,0 +1,99 @@
+/* blue - #5EBEC4
+pink - #F92C85
+beige - #FDF5DF; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins';
+   background-color:  #FDF5DF;
+   color: #5EBEC4;
+}
+
+.navbar{
+    background-color:#5EBEC4;
+    padding: 30px;
+    margin: 0%;
+    color: #FDF5DF;
+    font-size: 40px; 
+    font-weight: bolder;
+
+}
+.link{
+    background-color:#5EBEC4;
+    color: #FDF5DF;
+    font-size: 30px; 
+    font-weight: bolder;
+    float: right;
+    padding-left: 10px;
+   
+}
+#about{
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+}
+#proflink{
+    padding-left: 10px;
+    text-decoration: none;
+    background-color: #F92C85;
+    border-radius: 20px;
+    margin: 0px 10px 10px 10px;
+    top: 7px;
+    height: 40px;
+    padding: 0px 10px;
+    color: white;
+}
+#blog{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+}
+#blogcard{
+    margin: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #F92C85;
+    width: 700px;
+    height: 600px;
+}
+#blogpic{
+    width: 600px;
+    height: 400px;
+}
+#projectcontainer{
+    display: flex; 
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    align-items: flex-start; 
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+#projectcard{
+    margin: 20px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    text-align: center;
+    padding: 10px;
+    width: 800px;
+    border: 2px solid #F92C85;
+}
+
+#projectpic{
+ width: 800px;
+height: 600px;
+}
