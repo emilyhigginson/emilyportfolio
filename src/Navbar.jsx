@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link } from 'react-scroll'
-import About from './About'
 function Navbar() {
   return (
     <div className='navbar'>
